@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  width: 80vw;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ff6600;
+}
+nav h3 {
+  color: black;
+}
+nav a {
+  margin: 5px;
+}
+
+#logoImg {
+  border: 1px solid white;
+  margin: 2px;
+}
+
+#login {
+  margin-left: auto;
+}
+
+article {
+  padding: 5px;
+}
+
+footer {
+  /* display: flex;
+  justify-content: center; */
+}
+
+footer a {
+  margin: 5px;
+  color: black;
+}
+
+footer section {
+  margin: 10px;
+}
+
+@media only screen and (max-width: 772px) {
+  main {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(226, 223, 223);
+  }
+}
