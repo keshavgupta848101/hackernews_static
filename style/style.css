@@ -51,10 +51,16 @@ footer section {
   margin: 10px;
 }
 
-@media only screen and (max-width: 772px) {
+@media only screen and (max-width: 500px) {
   main {
     width: 100%;
     margin: auto;
     background-color: rgb(226, 223, 223);
+  }
+
+  nav div {
+    /* background-color: red; */
+    display: block;
+    /* flex-direction: column; */
   }
 }
