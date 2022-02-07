@@ -8,7 +8,7 @@
 main {
   width: 80vw;
   margin: auto;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(238, 227, 227);
 }
 nav {
   display: flex;
